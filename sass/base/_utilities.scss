@@ -1,0 +1,42 @@
+// Margin
+
+.margin {
+
+  &-bottom-s {
+    margin-bottom: 15px;
+  }
+
+  &-bottom-m {
+    margin-bottom: 30px;
+  }
+
+  &-bottom-l {
+    margin-bottom: 60px;
+  }
+
+  &-bottom-xl {
+    margin-bottom: 90px;
+  }
+
+}
+
+//Padding
+
+.padding {
+
+  &-top-s {
+
+  }
+
+  &-top-m {
+
+  }
+
+  &-top-l {
+
+  }
+
+  &-top-xl {
+    padding-top: 100px;
+  }
+}

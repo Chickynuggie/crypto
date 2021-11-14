@@ -1,0 +1,65 @@
+.header {
+  padding-top: 150px;
+  background-color: $colorBackground1;
+
+  & .container {
+    width: $containerWidth;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: .9fr 1.1fr;
+  }
+
+  &__save {
+    width: 365px;
+    display: flex;
+    align-items: center;
+    background-color: rgba($color-white, .1);
+    border-radius: 500px;
+    margin-bottom: 45px;
+
+    &-save {
+      color: $colorBackground1;
+      background-color: $color-white;
+      font-size: $fontSizePrimary;
+      font-weight: 700;
+      padding: 10px 20px;
+      border-radius: 500px;
+    }
+
+    &-forwhat {
+      color: $color-white;
+      font-size: $fontSizePrimary;
+      margin-left: 15px;
+    }
+  }
+
+  &-h1 {
+    color: $color-white;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 45px;
+  }
+
+  &-p {
+    color: $color-white;
+    font-size: $fontSizePrimary;
+    line-height: 28px;
+    width: 425px;
+    margin-bottom: 65px;
+  }
+
+  &-btn:hover {
+    background-color: rgba($color-blue, .65);
+  }
+
+
+  &__right {
+    position: relative;
+
+    &-img {      
+      position: absolute;
+      bottom: -50px;
+      width: 100%;
+    }
+  }
+}

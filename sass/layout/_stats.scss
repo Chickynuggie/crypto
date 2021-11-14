@@ -1,0 +1,24 @@
+.stats {
+  padding-top: 250px;
+  background-color: $colorBackground1;
+
+  & .container {    
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__item {
+    width: 400px;
+
+    &:not(:last-child) {
+      margin-right: 70px;
+    }
+  }
+
+  &__img {
+    padding-top: 10px;
+    float: left;
+    margin-right: 30px;
+  }
+}

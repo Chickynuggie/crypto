@@ -1,0 +1,22 @@
+.btn {
+  color: $color-white;
+  font-size: 18px;
+  padding: 20px 30px;
+  background-color: $color-blue;
+  border-radius: 500px;
+  text-decoration: none;
+  transition: .3s;
+
+  &:hover {
+    background-color: rgba($color-blue, .65);
+  }
+
+  &-icon {
+    font-weight: 700;
+    background: $color-white;
+    color: $color-blue;
+    padding: 5px 12px;
+    border-radius: 500px;
+    margin-left: 10px;
+  }
+}

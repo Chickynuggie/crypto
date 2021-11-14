@@ -1,0 +1,46 @@
+.sentiment {
+    background-color: $colorBackground2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    & h1 {
+      color: $color-white;
+      font-size: 40px;
+      font-weight: 700;
+      max-width: 750px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    & .container {
+      width: 1200px;
+      text-align: left;
+    }
+
+    & .grid {
+      display: flex;
+      margin-bottom: 120px;
+
+      & h1 {
+        margin: 40px 0;
+      }
+
+      & p {
+        font-size: 16px;
+        color: $color-grey;
+        margin-bottom: 60px;
+        width: 408px;
+      }
+    }
+}
+
+.chart__img1 {
+  margin-left: 200px;
+}
+
+.chart__img2 {
+  margin-right: 80px;
+}
+
